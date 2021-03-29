@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "cy": true
+  },
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "airbnb",
+    "plugin:jest/style",
+    "plugin:jest/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": ["react", "promise", "graphql"],
+  "rules": {
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "function-paren-newline": "off",
+    "max-len": [1, 180],
+    "no-param-reassign": "off",
+    "linebreak-style": "off",
+    "semi": "off",
+    "quotes": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "import/no-named-as-default-member": 0
+  }
+}

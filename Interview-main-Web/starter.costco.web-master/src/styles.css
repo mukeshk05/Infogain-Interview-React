@@ -1,0 +1,74 @@
+/* Common Css */
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+.align-self-center {
+    display: flex;
+    align-self: center;
+}
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+.p-3 {
+    padding: 24px;
+}
+.m-0 {
+    margin: 0;
+}
+
+/* Specific Css */
+h1 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    align-self: center;
+}
+h2 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.searchContainer {
+    border: 1px solid #ccc;
+}
+.searchBox {
+    padding-left: 16px;
+}
+.table-container {
+    height: calc(100vh - 120px);
+}
+.table-body {
+    width: '100%';
+}
+.empty-table {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 120px);
+    justify-content: center;
+    align-items: center;
+    color: #c00
+}
+.empty-search-icon {
+    font-size: 60px !important;
+    align-self: center;
+    padding-bottom: 16px;
+}
+.sub-table td {
+    border: none;
+}
+.sub-table p {
+    margin: 0
+}
+.movie-img {
+    width: 100px;
+    height: 150px;
+    padding: 8px;
+}
