@@ -1,0 +1,23 @@
+.product_wrapper {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid darkgrey;
+    margin: 15px 0;
+    
+}
+.search_container {
+    display: flex;
+    justify-content: flex-end;
+}
+.product_image {
+    width: 20%;
+    padding: 15px 30px;
+}
+.product_description {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+}
+.product_description span {
+    padding: 2%;
+}
